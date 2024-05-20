@@ -1,0 +1,168 @@
+*{
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+  margin: 0;
+}
+ul,li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+img{
+  width: 100%;
+}
+body{
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+}
+
+.sec-bg {
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(to right, #5a5b837a,#5a5b837a),url("../images/news\ bg\ 2.jpg") ;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+.inner{
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 25px 20px;
+}
+
+.logo img{
+  max-width: 23%;
+  margin: 0 auto;
+  display: block;
+}
+.mail{
+  text-align: center;
+}
+.mail span{
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+}
+.mail a{
+  color: yellow;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.play-store{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 24px 0;
+}
+.play-store img{
+  max-width: 219px;
+  height: 68px;
+  border-radius: 8px;
+}
+.policy{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.policy span{
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+}
+.policy a{
+  color: yellow;
+  font-size: 24px;
+  font-weight: 600;
+}
+/* footer */
+.footer-bg{
+  padding: 23px 27px;
+  background-color: #2a2a4eb0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.footer-bg p{
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+}
+
+.policy-sec{
+  padding: 37px 50px;
+  background-color: #f7eded;
+}
+.heading-third{
+  color: #000;
+  padding-bottom: 11px;
+}
+.policy-sec__inner h1{
+  font-size: 44px;
+}
+.policy-sec__inner h2{
+  padding: 15px 0;
+}
+.policy_para{
+  padding: 20px 0 18px;
+}
+.policy_para li{
+  margin-bottom: 13px;
+  line-height: 1.5;
+  list-style-type: auto;
+}
+.policy_para li span{
+  font-weight: 600;
+}
+.line-height{
+  line-height: 1.7;
+}
+.policyFooter p{
+  text-align: center;
+  padding: 19px 0;
+  font-weight: 600;
+}
+
+
+
+
+@media screen and (max-width:767px){
+  .play-store img {
+    max-width: 141px;
+    border-radius: 8px;
+    height: unset;
+  }
+  .play-store {
+    gap: 9px;
+  }
+  .policy a {
+    font-size: 16px;
+  }
+  .logo img {
+    max-width: 40%;
+  }
+  .policy-sec{
+    padding: 33px 28px;
+  }
+  .mail a {
+    font-size: 20px;
+  }
+  .policy-sec__inner h1 {
+    font-size: 38px;
+  }
+  .policy-sec__inner h2 {
+    padding: 12px 0;
+    font-size: 20px;
+  }
+}
